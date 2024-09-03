@@ -112,7 +112,7 @@ class UserAuthController extends Controller
             ['nickname' => $form_data['nickname']], 
             function($message) use ($form_data) {
                 $message->to($form_data['email'], $form_data['nickname'])
-                ->from('a0984026880@gmail.com')
+                ->from('103st355011a@gmail.com')
                 ->subject('恭喜');
             });
 
