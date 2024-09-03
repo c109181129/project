@@ -105,7 +105,7 @@
 							@endif
 							<li class="menu-item">
 								<a class="menu-link" href="{{ route('user.auth.home') }}">
-									<div>主頁</div>
+									<div>首頁</div>
 								</a>
 							</li>
 						</ul>
